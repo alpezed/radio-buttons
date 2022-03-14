@@ -9,7 +9,7 @@ const Radio: React.FC<IRadioProps> = ({ label, disabled = false, ...rest }) => {
 		<label
 			className={`form-control${disabled ? ' form-control--disabled' : ''}`}
 		>
-			<input type='radio' name='radio' {...rest} />
+			<input type='radio' {...rest} />
 			{label}
 		</label>
 	);
